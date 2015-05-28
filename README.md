@@ -34,9 +34,7 @@ You can now connect to this MySQL Server using:
 Please remember to change the above password as soon as possible!
 MySQL user 'root' has no password but only allows local connections
 
-========================================================================
 Waiting for confirmation of MySQL service startup
-========================================================================
 
 - MySQL user: user
 - MySQL password: password
