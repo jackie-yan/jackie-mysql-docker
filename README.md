@@ -1,31 +1,31 @@
-mysql docker
+#mysql docker
 
 A basic image for docker mysql images such as [jackie/mysql]
 Usage
 Basic Example
 
 Git clone and cd into it
-
+```no-highlight
 docker build -t=jackie/mysql .
-
+```
+```no-highlight
 docker run -d -p 3306 jackie/mysql 
+```
 
-Administration
-Connecting to MySQL
+#Connecting to MySQL
 
 The first time that you run your container, 
 a new user admin with all privileges will be created in MySQL with a password. 
 
-Also Create magento database and new magento user. eg: 
+Also create magento database and new magento user. eg: 
 
 - MySQL user: user
 - MySQL password: password
 
 To get the password, check the logs of the container.
 
-sudo docker logs <container_id>
+sudo docker logs container_id
 
-you will see
 ========================================================================
 You can now connect to this MySQL Server using:
 
@@ -38,9 +38,9 @@ MySQL user 'root' has no password but only allows local connections
 => Waiting for confirmation of MySQL service startup
 ========================================================================
 
-MySQL user: user
-MySQL password: password
-MySQL file: /magento_data.sql
+- MySQL user: user
+- MySQL password: password
+- MySQL file: /magento_data.sql
 
 ========================================================================
 Initializing the database with sample data
