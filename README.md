@@ -41,7 +41,7 @@ Waiting for confirmation of MySQL service startup
 - MySQL file: /magento_data.sql
 
 ========================================================================
-Initializing the database with sample data
-database with sample data completed
+- Initializing the database with sample data
+- database with sample data completed
 
 
